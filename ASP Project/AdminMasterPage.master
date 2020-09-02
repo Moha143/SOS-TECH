@@ -1,0 +1,71 @@
+﻿<%@ Master Language="VB" CodeFile="AdminMasterPage.master.vb" Inherits="MasterPage" %>
+
+<!DOCTYPE html>
+
+
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head runat="server">
+    <title></title>
+
+  <link href="admin.css" rel="stylesheet" />
+
+</head>
+<body>
+
+    <form id="form1" runat="server">
+  <div id="container">
+        
+		<div id="header"><!-- dhamaadka headerka-->
+		
+	<img src="image/soslogoSITE.png" height="150" width ="960"/>
+
+
+		
+		<div id="nav">
+         <ul>
+		<li><a href="AdminHome.aspx"> Admin Home</a></li>
+		<li><a href="EmployeeRegistration.aspx"> Employeee</a></li>
+		<li><a href="UserRegistration.aspx"> Users</a></li>
+		<li><a href="customerRegistration.aspx">Customer</a></li>
+        <li><a href="Message.aspx">Messages</a></li>
+         <li><a href="Home.aspx">logout</a></li>
+	
+     
+			
+		</ul>
+		</div>
+		</div>
+
+		<div id="content-wrap">  
+	 
+
+		   
+	
+		
+		
+
+	
+		    &nbsp;&nbsp;<asp:ContentPlaceHolder ID="ContentPlaceHolder2" runat="server">
+
+     
+
+            </asp:ContentPlaceHolder>
+		   
+	
+
+	
+		</div><!-- content-wrapka-->
+		<div id="footer">
+		<p>copyright © 2020  - All rights are are.</p>
+		</div><!-- dhamaadka footerka-->
+		
+		
+		
+</div><!-- dhamaadka containerka-->
+
+     
+    </form>
+
+     
+</body>
+</html>

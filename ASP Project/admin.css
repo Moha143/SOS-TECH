@@ -1,0 +1,111 @@
+﻿/*hordhac*/
+
+
+
+/* my style sheet*/
+
+body{
+    background-image:linear-gradient(rgba(72, 12, 236, 0.8),rgba(250, 8, 81, 0.5));
+	background-size: cover;
+	font: 16px/1.5 verdana, arial, helvetica, sans-sarif; 
+	
+  }
+
+body, img, p, h1, h2, h3, h4, h5,  ul, ol, li, form, blockqute{
+	margin: 0 0 0 1px;
+}
+
+h1, h2, h3, h4, h5{
+	line-height: 1.1cm;
+	font-weight: bold;
+	padding: 10px 0;
+}
+
+
+
+/*-----------------
+container
+---------------------*/
+#container{
+	
+	width: 960px;
+	margin: 0 auto;
+	background:#ff6a00;
+}
+/*header*/
+#header{ 
+background: #0496f9;
+	border-bottom: 5px solid #c30;
+
+}
+
+  
+
+
+/*nav*/
+
+
+
+#nav{ 
+	overflow: hidden;
+	width: 960px;
+background: #0496f9;
+    height: 40px;
+    justify-content: space-around;
+
+}
+#nav ul{
+        min-height:12vh;
+    
+	float: left;
+    justify-content:space-around;
+	margin: 0;
+	padding: 0;
+    display:flexbox;
+    width: 941px;
+    height: 37px;
+}
+#nav ul li {
+	list-style-type: none;
+	display: inline;
+    min-height:12vh;
+}
+#nav li a {
+	display: block;
+	float: left;
+	padding: 5px 10px;
+	color: #fdfdfd;
+	text-decoration: none;
+    letter-spacing :1px;
+	border-right: 1px solid red;
+    height: 22px;
+        min-height:12vh;
+    width: 132px;
+}
+#nav li a:hover {
+	background: #ec15f3;
+        min-height:15vh;
+}
+
+
+/*content-wrap*/
+#content-wrap{
+	background:#ffffff;
+	overflow: hidden;
+	padding: 0 20px;
+    list-style: circle;
+
+}
+
+
+/*footer*/
+#footer{ 
+	background: #0496f9;
+	color: #fff;
+	clear: both;
+	height: 60px;
+
+}
+#footer p{
+	padding: 30px;
+}
